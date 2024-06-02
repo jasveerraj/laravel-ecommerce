@@ -65,7 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Steps to run application
+## Steps to run the application
 
 * git clone https://github.com/jasveerraj/laravel-ecommerce.git
 * cd laravel-ecommerce
@@ -79,3 +79,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 * mkdir -p storage/app/public/images 
 * cp public/product.jpeg storage/app/public/images/product.jpeg
 * php artisan serve
+* open your web browser and navigate to the URL provided, it must be -> http://127.0.0.1:8000 
