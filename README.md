@@ -80,3 +80,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 * cp public/product.jpeg storage/app/public/images/product.jpeg
 * php artisan serve
 * open your web browser and navigate to the URL provided, it must be -> http://127.0.0.1:8000 
+* open new terminal, npm install and run npm run dev
+* for admin panel, hit this link -> http://127.0.0.1:8000/admin | Default username: admin@gmail.com and password: admin@123
