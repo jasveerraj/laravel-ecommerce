@@ -69,7 +69,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 * git clone https://github.com/jasveerraj/laravel-ecommerce.git
 * composer install
-* cp .env.sample .env
+* cp .env.example .env
 * php artisan generate:key
 * php artisan migrate
 * php artisan db:seed
