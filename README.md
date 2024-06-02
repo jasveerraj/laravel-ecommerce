@@ -64,3 +64,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Steps to run application
+
+* git clone https://github.com/jasveerraj/laravel-ecommerce.git
+* composer install
+* cp .env.sample .env
+* php artisan generate:key
+* php artisan migrate
+* php artisan db:seed
+* php artisan storage:link 
+* mkdir -p storage/app/public/images 
+* cp public/product.jpeg storage/app/public/images/product.jpeg
+* php artisan serve
